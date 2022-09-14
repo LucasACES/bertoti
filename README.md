@@ -1,2 +1,2 @@
 # bertoti
-Repositório para aulas registrar aulas do professor Giuliano
+Repositório para as registrar aulas do professor Giuliano
