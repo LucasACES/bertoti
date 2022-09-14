@@ -35,7 +35,7 @@ Text here
 # [Projeto 3: 2° Semestre de 2021](https://github.com/LucasACES/PROJETO-NESS)
 ### Parceiro Acadêmico
 <img src="https://assets.website-files.com/60dcc4691817e11aa93685ab/60e0cda0e2f47717a3b228bf_open-graph.png" alt="IonicHealth" width="500"> <br>
-#### Figura x. IonicHealth(Fonte: https://assets.website-files.com/60dcc4691817e11aa93685ab/60e0cda0e2f47717a3b228bf_open-graph.png)
+##### Figura x. IonicHealth(Fonte: https://assets.website-files.com/60dcc4691817e11aa93685ab/60e0cda0e2f47717a3b228bf_open-graph.png)
 
 A IONIC Health é uma empresa especializada em inovação e transformação digital para a saúde. Estão integrados à Jornada Digital do Paciente, desenvolvendo soluções que automatizam, monitoram e teleoperam equipamentos clínicos.
 
