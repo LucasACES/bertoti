@@ -6,7 +6,7 @@ Text here
 ### Meus principais conhecimentos
 Text here
 
-# [Projeto 1: 2° Semestre de 2020]()
+# [Projeto 1: 2° Semestre de 2020](https://github.com/LucasACES/E-commerce_Django)
 ### Parceiro Acadêmico
 Text here
 ### Visão do Projeto
@@ -19,7 +19,7 @@ Text here
 ### Aprendizados Efetivos
 Text here
 
-# [Projeto 2: 1° Semestre de 2021]()
+# [Projeto 2: 1° Semestre de 2021](https://github.com/LucasACES/ProjetoGSW)
 ### Parceiro Acadêmico
 Text here
 ### Visão do Projeto
@@ -32,7 +32,7 @@ Text here
 ### Aprendizados Efetivos
 Text here
 
-# [Projeto 3: 2° Semestre de 2021]()
+# [Projeto 3: 2° Semestre de 2021](https://github.com/LucasACES/PROJETO-NESS)
 ### Parceiro Acadêmico
 Text here
 ### Visão do Projeto
