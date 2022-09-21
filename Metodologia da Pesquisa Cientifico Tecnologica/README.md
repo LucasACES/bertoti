@@ -49,10 +49,28 @@ Para esse projeto a empresa solicitou a criação de um CRM, para a melhor admin
 - HTML
 - CSS
 - JavaScript
-- PostgreSQL
+- MySQL
+
+
 
 ### Contribuições Individuais
-Text here
+Nesse projeto fiquei responsável por criar a parte backend e o banco de dados do projeto.
+#### Backend:
+Como backend fiquei responsavel por todo o código, criando os códigos de cadastro de contatos e leads. Após isso fui responsável por criar a conexão e inserção de todos os dados registrados no banco de dados.  
+Além disso, fiz todas as rotas de todas as telas que o projeto contém.  
+Para inserir, atualizar ou apagar dados do banco de dados utilizei o método HTTP do django(HttpResponse). 
+Exemplo de uso:
+~~~ python
+def leads(request): 
+    leads = Pipeline.objects.all()  
+    if request.method=="GET":  
+        context = {  
+            'titulo': leads  
+        }  
+    return render(request, 'leads.html', context=context)
+~~~
+
+
 
 ### Aprendizados Efetivos
 Text here
