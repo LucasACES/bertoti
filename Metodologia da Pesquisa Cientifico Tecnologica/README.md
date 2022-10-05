@@ -56,21 +56,24 @@ Para esse projeto a empresa solicitou a criação de um CRM, para a melhor admin
 ### Contribuições Individuais
 Nesse projeto fiquei responsável por criar a parte backend e o banco de dados do projeto.
 #### Backend:
-Como backend fiquei responsavel por todo o código, criando os códigos de cadastro de contatos e leads. Após isso fui responsável por criar a conexão e inserção de todos os dados registrados no banco de dados.  
-Além disso, fiz todas as rotas de todas as telas que o projeto contém.  
-Para inserir, atualizar ou apagar dados do banco de dados utilizei o método HTTP do django(HttpResponse). 
-Exemplo de uso:
-~~~ python
-def leads(request): 
-    leads = Pipeline.objects.all()  
-    if request.method=="GET":  
-        context = {  
-            'titulo': leads  
-        }  
-    return render(request, 'leads.html', context=context)
-~~~
+Como backend fiquei responsavel por todo o código, criando todo o código fonte por trás do projeto.   
+Para inserção, exclusão e atualização dos dados utilizei o método HTTP do django(HttpResponse).
 
+<details>
+<summary>Exemplo de obtenção de dados:</summary>
+<img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/chrome_Fwxvpf78uT.png">
+</details>
 
+Além de modelar e restringir os dados que serão inseridos na plataforma afim de garantir que não seja inserido nada além do que realmente precisa.
+Para restringir o acesso e criar uma hierarquia de acesso a plataforma, utilizei a biblioteca nativa do Django (login_required), fazendo assim que apenas pessoas com permissão acesse a plataforma.
+
+#### Banco de dados:
+Para a criação do banco de dados utilizei o SGBD MySQL, realizando a criação de tabelas e também do usuário utilizado no sistema para realizar as operações no banco. Trabalhando ao mesmo tempo entre o código da plataforma e o banco de dados fui criando as tabelas necessárias, o script e toda as configurações necessárias para que a plataforma tenha integração com o banco. 
+
+<details>
+<summary>Exemplo de conexão utilizada:</summary>
+<img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/chrome_ub6wTUsYit.png">
+</details>
 
 ### Aprendizados Efetivos
 Text here
