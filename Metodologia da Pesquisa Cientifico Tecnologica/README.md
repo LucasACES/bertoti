@@ -45,12 +45,14 @@ Para esse projeto a empresa solicitou a criação de um CRM, para a melhor admin
 
 ### Tecnologias adotadas na solução
 
-- Python (Django)
-- HTML
+- Python (Django)  
+-> Foi utilizado como base para o projeto, por ser um framework bem estruturado e com diversas bibliotecas que auxiliam a criação de plataformas web.
+- HTML  
+-> Utilizado para criar os elementos que compõem a visualizão de textos e objetos no navegador.
 - CSS
+
 - JavaScript
 - MySQL
-
 
 
 ### Contribuições Individuais
@@ -59,7 +61,7 @@ Nesse projeto fiquei responsável por criar a parte backend e o banco de dados d
 Como backend fiquei responsavel por todo o código, criando todo o código fonte por trás do projeto.   
 Para inserção, exclusão e atualização dos dados utilizei o método HTTP do django(HttpResponse).
 
-<details>
+<details >
 <summary>Exemplo de obtenção de dados:</summary>
 <img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/chrome_Fwxvpf78uT.png">
 </details>
@@ -68,7 +70,7 @@ Além de modelar e restringir os dados que serão inseridos na plataforma afim d
 Para restringir o acesso e criar uma hierarquia de acesso a plataforma, utilizei a biblioteca nativa do Django (login_required), fazendo assim que apenas pessoas com permissão acesse a plataforma.
 
 #### Banco de dados:
-Para a criação do banco de dados utilizei o SGBD MySQL, realizando a criação de tabelas e também do usuário utilizado no sistema para realizar as operações no banco. Trabalhando ao mesmo tempo entre o código da plataforma e o banco de dados fui criando as tabelas necessárias, o script e toda as configurações necessárias para que a plataforma tenha integração com o banco. 
+Para a criação do banco de dados utilizei o SGBD MySQL, realizando a criação de tabelas e também do usuário utilizado no sistema para realizar as operações no banco. Trabalhando ao mesmo tempo entre o código da plataforma e o banco de dados fui criando as tabelas necessárias, o script e toda as configurações necessárias para que a plataforma tenha integração com o banco.
 
 <details>
 <summary>Exemplo de conexão utilizada:</summary>
@@ -76,9 +78,9 @@ Para a criação do banco de dados utilizei o SGBD MySQL, realizando a criação
 </details>
 
 ### Aprendizados Efetivos
-Text here
+
 
 ## Contatos
- - [LinkedIn](https://linkedin.com/in/lucasaces) 
+ - [LinkedIn](https://linkedin.com/in/lucasaces)
  - [E-mail](mailto:atomo.lambert_0q@icloud.com)
  - [GitHub](https://github.com/LucasACES)
