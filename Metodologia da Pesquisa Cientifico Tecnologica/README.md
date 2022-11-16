@@ -7,6 +7,11 @@ Olá, seja bem-vindo. Atualmente estudante de Banco de dados, porém cursei 3 se
 Meus principais conhecimentos são em **Python**, principalmente em frameworks como **Django** e **Flask**, mas, atualmente meu foco está sendo em **Java**
 e **SQL**.
 
+## Conteúdo:
+### [Projeto 1](https://github.com/LucasACES/bertoti/tree/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica#projeto-1-2-semestre-de-2020)
+### [Projeto 2](https://github.com/LucasACES/bertoti/tree/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica#projeto-2-1-semestre-de-2021)
+### [Projeto 3](https://github.com/LucasACES/bertoti/tree/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica#projeto-3-2-semestre-de-2021)
+
 
 # [Projeto 1: 2° Semestre de 2020](https://github.com/LucasACES/E-commerce_Django)
 ### Parceiro Acadêmico
