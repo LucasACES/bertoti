@@ -1,10 +1,12 @@
 # Lucas César Andrade
 
 ## Introdução
-Text here
+Olá, seja bem-vindo. Atualmente estudante de Banco de dados, porém cursei 3 semestres de Analise e desenvolvimento de sistemas.
 
 ### Meus principais conhecimentos
-Text here
+Meus principais conhecimentos são em **Python**, principalmente em frameworks como **Django** e **Flask**, mas, atualmente meu foco está sendo em **Java**
+e **SQL**.
+
 
 # [Projeto 1: 2° Semestre de 2020](https://github.com/LucasACES/E-commerce_Django)
 ### Parceiro Acadêmico
