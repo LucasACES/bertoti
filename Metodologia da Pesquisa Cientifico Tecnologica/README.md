@@ -35,7 +35,7 @@ Text here
 # [Projeto 3: 2° Semestre de 2021](https://github.com/LucasACES/PROJETO-NESS)
 ### Parceiro Acadêmico
 <img src="https://assets.website-files.com/60dcc4691817e11aa93685ab/60e0cda0e2f47717a3b228bf_open-graph.png" alt="IonicHealth" width="500"> <br>
-##### Figura x. IonicHealth(Fonte: https://assets.website-files.com/60dcc4691817e11aa93685ab/60e0cda0e2f47717a3b228bf_open-graph.png)
+##### IonicHealth (Fonte: https://assets.website-files.com/60dcc4691817e11aa93685ab/60e0cda0e2f47717a3b228bf_open-graph.png)
 
 A IONIC Health é uma empresa especializada em inovação e transformação digital para a saúde. Estão integrados à Jornada Digital do Paciente, desenvolvendo soluções que automatizam, monitoram e teleoperam equipamentos clínicos.
 
@@ -45,37 +45,70 @@ Para esse projeto a empresa solicitou a criação de um CRM, para a melhor admin
 
 ### Tecnologias adotadas na solução
 
-<img src=""> Python (Django)  
--> Foi utilizado como base para o projeto, por ser um framework bem estruturado e com diversas bibliotecas que auxiliam a criação de plataformas web.
-- HTML  
+<img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/python.png?raw=true" width="15"> Python (Django)  
+    -> Foi utilizado como base para o projeto, por ser um framework bem estruturado e com diversas bibliotecas que auxiliam a criação de plataformas web.  
+    <br>
+
+<img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/html.png?raw=true" width="14"> HTML  
 -> Utilizado para criar os elementos que compõem a visualizão de textos e objetos no navegador.
-- CSS
+<br>
 
-- JavaScript
-- MySQL
+<img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/css.png?raw=true" width="20"> CSS  
+-> Utilizado para estilizar todos os elementos composto na plataforma web, desde cor até tamanho e fonte.
 
+<br>
+
+<img src="https://raw.githubusercontent.com/LucasACES/bertoti/ce72569c6d4920879802c1f7bb985a8611aa202b/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/javascript.svg" width="14"> JavaScript  
+-> Utilizado para gerar graficos.
+<br>
+
+<img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/mysql_logo_icon_169941.png?raw=true" width="50"> MySQL  
+-> Utilizado para gerenciar os dados utilizados no sistema.
+
+<br>
+
+---
 
 ### Contribuições Individuais
-Nesse projeto fiquei responsável por criar a parte backend e o banco de dados do projeto.
+Nesse projeto fui responsável por toda estrutura e base do projeto, desde a lógica até o tratamento dos dados. Sendo responsável por criar, subir e manter o sistema rodando mesmo que localmente e criar e gerenciar o banco de dados.
 #### Backend:
-Como backend fiquei responsavel por todo o código, criando todo o código fonte por trás do projeto.   
-Para inserção, exclusão e atualização dos dados utilizei o método HTTP do django(HttpResponse).
+Na estrutura do sistema, optei por utilizar o django, um framework do Python, por ser um framework para sistemas mais incorporados e já ter por padrão uma estrutura. Uma estrutura que para o projeto foi bem útil.
+Para inserção, exclusão e atualização dos dados utilizei o método HTTP do django (HttpResponse).
 
-<details >
+<details open>
 <summary>Exemplo de obtenção de dados:</summary>
-<img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/chrome_Fwxvpf78uT.png">
-</details>
+<img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/chrome_Fwxvpf78uT.png?raw=true">
 
+> Nessa imagem contém o metódo GET, que obtém os dados e retorna ele na tela explicitada no código.
+</details>
+<br>
 Além de modelar e restringir os dados que serão inseridos na plataforma afim de garantir que não seja inserido nada além do que realmente precisa.
 Para restringir o acesso e criar uma hierarquia de acesso a plataforma, utilizei a biblioteca nativa do Django (login_required), fazendo assim que apenas pessoas com permissão acesse a plataforma.
 
-#### Banco de dados:
-Para a criação do banco de dados utilizei o SGBD MySQL, realizando a criação de tabelas e também do usuário utilizado no sistema para realizar as operações no banco. Trabalhando ao mesmo tempo entre o código da plataforma e o banco de dados fui criando as tabelas necessárias, o script e toda as configurações necessárias para que a plataforma tenha integração com o banco.
+Tendo uma hierarquia de permissões, todo o sistema já estava um pouco mais seguro e já dava para inserir os dados e distribuir cada dado para cada cargo especifico.
 
-<details>
-<summary>Exemplo de conexão utilizada:</summary>
-<img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/chrome_ub6wTUsYit.png">
+Todas as telas tem sua permissão e informação de acordo com cada cargo. O sistema não pode ser acessado sem um usuário.
+
+<details open>
+<summary>Tela de login:</summary>
+<img src="https://github.com/Time-1-ADS/PROJETO-NESS/raw/codes/imagens/Login.gif">
+
+> Caso o usuário tente acessar qualquer página sem estar autenticado, ele automaticamente é direcionado para essa página para que possa validar seu usuário.
 </details>
+
+#### Banco de dados:
+Para salvar e manter os dados seguros, decidimos criar um banco de dados utilizando o SGBD MySql. Atráves dele fiz a criação e manipulação das tabelas que recebem os dados do sistema.
+Seguindo uma boa prática utilizei um script inicial no sistema para criar as tabelas automaticamente e com o tipo correto de cada dado.  
+Além disso foi criado um usuário especifico para o sistema para que o acesso ao dados por meio indevido seja mais dificil.
+
+<details open>
+<summary>Exemplo de conexão utilizada:</summary>
+<img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/chrome_ub6wTUsYit.png?raw=true">
+
+> Aqui podemos ver como foi criado a conexão do código com o banco de dados, essa conexão está em um arquivo separado de toda a estrutura do sistema e é retornada através de uma variável.
+</details>
+
+<br>
 
 ### Aprendizados Efetivos
 
