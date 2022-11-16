@@ -45,7 +45,7 @@ Para esse projeto a empresa solicitou a criação de um CRM, para a melhor admin
 
 ### Tecnologias adotadas na solução
 
-- Python (Django)  
+<img src=""> Python (Django)  
 -> Foi utilizado como base para o projeto, por ser um framework bem estruturado e com diversas bibliotecas que auxiliam a criação de plataformas web.
 - HTML  
 -> Utilizado para criar os elementos que compõem a visualizão de textos e objetos no navegador.
