@@ -72,7 +72,7 @@ Para esse projeto a empresa solicitou a criação de um CRM, para a melhor admin
 ### Contribuições Individuais
 Nesse projeto fui responsável por toda estrutura e base do projeto, desde a lógica até o tratamento dos dados. Sendo responsável por criar, subir e manter o sistema rodando mesmo que localmente e criar e gerenciar o banco de dados.
 #### Backend:
-Na estrutura do sistema, optei por utilizar o django, um framework do Python, por ser um framework para sistemas mais incorporados e já ter por padrão uma estrutura. Uma estrutura que para o projeto foi bem útil.
+Na estrutura do sistema, optei por utilizar o django, um framework do Python, por ser um framework para sistemas mais incorporados e já ter por padrão uma estrutura, uma estrutura que para o projeto foi bem útil.
 Para inserção, exclusão e atualização dos dados utilizei o método HTTP do django (HttpResponse).
 
 <details open>
@@ -98,7 +98,7 @@ Todas as telas tem sua permissão e informação de acordo com cada cargo. O sis
 
 #### Banco de dados:
 Para salvar e manter os dados seguros, decidimos criar um banco de dados utilizando o SGBD MySql. Atráves dele fiz a criação e manipulação das tabelas que recebem os dados do sistema.
-Seguindo uma boa prática utilizei um script inicial no sistema para criar as tabelas automaticamente e com o tipo correto de cada dado.  
+Utilizei um script inicial no sistema para criar as tabelas automaticamente e com o tipo correto de cada dado.  
 Além disso foi criado um usuário especifico para o sistema para que o acesso ao dados por meio indevido seja mais dificil.
 
 <details open>
