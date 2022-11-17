@@ -40,6 +40,7 @@ Text here
 Text here
 
 # [Projeto 3: 2° Semestre de 2021](https://github.com/LucasACES/PROJETO-NESS)
+#### :warning: Clique no titulo para ser redirecionado à página do projeto
 ### Parceiro Acadêmico
 <img src="https://assets.website-files.com/60dcc4691817e11aa93685ab/60e0cda0e2f47717a3b228bf_open-graph.png" alt="IonicHealth" width="500"> <br>
 ##### IonicHealth (Fonte: https://assets.website-files.com/60dcc4691817e11aa93685ab/60e0cda0e2f47717a3b228bf_open-graph.png)
@@ -82,7 +83,7 @@ Nesse projeto fui responsável por toda estrutura e base do projeto, desde a ló
 Na estrutura do sistema, optei por utilizar o django, um framework do Python, por ser um framework para sistemas mais incorporados e já ter por padrão uma estrutura, uma estrutura que para o projeto foi bem útil.
 Para inserção, exclusão e atualização dos dados utilizei o método HTTP do django (HttpResponse).
 
-<details open>
+<details >
 <summary>Exemplo de obtenção de dados:</summary>
 <img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/chrome_Fwxvpf78uT.png?raw=true">
 
@@ -96,7 +97,7 @@ Tendo uma hierarquia de permissões, todo o sistema já estava um pouco mais seg
 
 Todas as telas tem sua permissão e informação de acordo com cada cargo. O sistema não pode ser acessado sem um usuário.
 
-<details open>
+<details >
 <summary>Tela de login:</summary>
 <img src="https://github.com/Time-1-ADS/PROJETO-NESS/raw/codes/imagens/Login.gif">
 
@@ -108,17 +109,37 @@ Para salvar e manter os dados seguros, decidimos criar um banco de dados utiliza
 Utilizei um script inicial no sistema para criar as tabelas automaticamente e com o tipo correto de cada dado.  
 Além disso foi criado um usuário especifico para o sistema para que o acesso ao dados por meio indevido seja mais dificil.
 
-<details open>
+<details >
 <summary>Exemplo de conexão utilizada:</summary>
 <img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/chrome_ub6wTUsYit.png?raw=true">
 
 > Aqui podemos ver como foi criado a conexão do código com o banco de dados, essa conexão está em um arquivo separado de toda a estrutura do sistema e é retornada através de uma variável.
 </details>
 
+Um exemplo da conexão do banco com o sistema podemos ver abaixo, onde mostra a inserção no front-end, criado pelo HTML, CSS e estruturado pelo backend onde acontece toda a comunicação.
+
+<details >
+<summary>Inserção visto pelo usuário:</summary>
+<img src="https://github.com/Time-1-ADS/PROJETO-NESS/raw/codes/imagens/novas-propostas.gif">
+
+> Nesta tela podemos ver a inserção de uma nova proposta no sistema.
+</details>
+
+<details >
+<summary>Comunicação com o banco de dados para salvar a proposta:</summary>
+<img src="">
+
+> Nesta tela podemos ver a inserção de uma nova proposta no sistema indo para o banco de dados atráves de um form criado em outro arquivo.
+> Podemos ver que há uma condição que verifica se o metodo é GET ou POST, que define se irá recuperar dados do banco ou se irá inserir dados no banco.
+</details>
+
 <br>
 
 ### Aprendizados Efetivos
 
+Neste projeto tive como maior aprendizado a operação de Insert, update e Delete utilizando o metodo REST.  
+Um conhecimento maior no SGBD MySQL, que no caso foi a primeira vez em que coloquei em pratica para um projeto. Além de aprender mais sobre o framework do Django que eu já conhecia porém com diversos obstáculos durante o processo de criação me rendeu mais conhecimento e experiência com o framework.  
+A integração com o frontend também foi um conhecimento a mais, apesar de eu já ter feito isso antes, foi um avanço muito grande onde eu realmente tive que estudar e aprender sobre boas práticas.
 
 ## Contatos
  - [LinkedIn](https://linkedin.com/in/lucasaces)
