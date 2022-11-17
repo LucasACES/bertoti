@@ -128,7 +128,7 @@ Um exemplo da conexão do banco com o sistema podemos ver abaixo, onde mostra a 
 
 <details >
 <summary>Comunicação com o banco de dados para salvar a proposta:</summary>
-<img src="">
+<img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/back_insercao.png?raw=true">
 
 > Nesta tela podemos ver a inserção de uma nova proposta no sistema indo para o banco de dados atráves de um form criado em outro arquivo.
 > Podemos ver que há uma condição que verifica se o metodo é GET ou POST, que define se irá recuperar dados do banco ou se irá inserir dados no banco.
