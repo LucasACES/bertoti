@@ -12,6 +12,7 @@ e **SQL**.
 ### [Projeto 2](https://github.com/LucasACES/bertoti/tree/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica#projeto-2-1-semestre-de-2021)
 ### [Projeto 3](https://github.com/LucasACES/bertoti/tree/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica#projeto-3-2-semestre-de-2021)
 
+---
 
 # [Projeto 1: 2° Semestre de 2020](https://github.com/LucasACES/E-commerce_Django)
 ### Parceiro Acadêmico
