@@ -72,7 +72,7 @@ Para esse projeto a empresa solicitou a criação de um CRM, para a melhor admin
 <br>
 
 <img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/mysql_logo_icon_169941.png?raw=true" width="50"> MySQL  
--> Utilizado para gerenciar os dados utilizados no sistema.
+-> Utilizado para gerenciar o banco de dados utilizado no sistema.
 
 <br>
 
