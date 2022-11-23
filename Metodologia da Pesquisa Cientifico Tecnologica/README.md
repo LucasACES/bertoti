@@ -17,7 +17,7 @@ e **SQL**.
 # [Projeto 1: 2° Semestre de 2020](https://github.com/LucasACES/E-commerce_Django)
 ### Parceiro Acadêmico
 Text here
-### Visão do Projeto
+### Descrição do Projeto
 Text here
 ### Tecnologias adotadas na solução
 Text here
@@ -30,7 +30,7 @@ Text here
 # [Projeto 2: 1° Semestre de 2021](https://github.com/LucasACES/ProjetoGSW)
 ### Parceiro Acadêmico
 Text here
-### Visão do Projeto
+### Descrição do Projeto
 Text here
 ### Tecnologias adotadas na solução
 Text here
@@ -48,7 +48,7 @@ Text here
 
 A IONIC Health é uma empresa especializada em inovação e transformação digital para a saúde. Estão integrados à Jornada Digital do Paciente, desenvolvendo soluções que automatizam, monitoram e teleoperam equipamentos clínicos.
 
-### Visão do Projeto
+### Descrição do Projeto
 
 Para esse projeto a empresa solicitou a criação de um CRM, para administração das vendas e contatos com os clientes.
 
