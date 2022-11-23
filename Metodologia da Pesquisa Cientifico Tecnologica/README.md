@@ -50,7 +50,7 @@ A IONIC Health é uma empresa especializada em inovação e transformação digi
 
 ### Visão do Projeto
 
-Para esse projeto a empresa solicitou a criação de um CRM, para a melhor administração das vendas e do contato com os clientes.
+Para esse projeto a empresa solicitou a criação de um CRM, para administração das vendas e contatos com os clientes.
 
 ### Tecnologias adotadas na solução
 
