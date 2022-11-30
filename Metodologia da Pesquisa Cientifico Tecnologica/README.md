@@ -114,7 +114,7 @@ Além disso foi criado um usuário especifico para o sistema para que o acesso a
 <summary>Exemplo de conexão utilizada:</summary>
 <img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/chrome_ub6wTUsYit.png?raw=true">
 
-> Aqui podemos ver como foi criado a conexão do código com o banco de dados, essa conexão está em um arquivo separado de toda a estrutura do sistema e é retornada através de uma variável.
+> Esse código foi gerado em um arquivo separado para manter mais seguro a conexão com o banco, ali temos um modelo onde é necessário preencher todos os campos, pois são obrigatórios no django para ter sucesso na conexão. Principalmente a ENGINE, que podemos "dizer" ao django qual banco iremos utilizar.
 </details>
 
 Um exemplo da conexão do banco com o sistema podemos ver abaixo, onde mostra a inserção no front-end, criado pelo HTML, CSS e estruturado pelo backend onde acontece toda a comunicação.
