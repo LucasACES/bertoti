@@ -88,7 +88,7 @@ Para inserção, exclusão e atualização dos dados utilizei o método HTTP do 
 <summary>Exemplo de obtenção de dados:</summary>
 <img src="https://github.com/LucasACES/bertoti/blob/master/Metodologia%20da%20Pesquisa%20Cientifico%20Tecnologica/IMG/chrome_Fwxvpf78uT.png?raw=true">
 
-> Nessa imagem contém o metódo GET, que obtém os dados e retorna ele na tela explicitada no código.
+> Nesse código contém uma função que pega as informações dos leads no banco de dados e disponibiliza na tela "leads.html", ali ele espera pelo metodo GET para retornar os dados no contexto da pagina.
 </details>
 <br>
 Além de modelar e restringir os dados que serão inseridos na plataforma afim de garantir que não seja inserido nada além do que realmente precisa.
@@ -102,7 +102,7 @@ Todas as telas tem sua permissão e informação de acordo com cada cargo. O sis
 <summary>Tela de login:</summary>
 <img src="https://github.com/Time-1-ADS/PROJETO-NESS/raw/codes/imagens/Login.gif">
 
-> Caso o usuário tente acessar qualquer página sem estar autenticado, ele automaticamente é direcionado para essa página para que possa validar seu usuário.
+> Nesse GIF a informação principal a se perceber é que existe um método de segurança que impede que qualquer pessoa consiga acesso ao dados através do portal CRM. Mesmo que ela saiba o endereço de outras páginas, sempre que tentar acessar o CRM irá exigir uma credencial e caso não esteja autenticado sempre retornará para essa página.
 </details>
 
 #### Banco de dados:
