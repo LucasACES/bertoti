@@ -123,7 +123,7 @@ Um exemplo da conexão do banco com o sistema podemos ver abaixo, onde mostra a 
 <summary>Inserção visto pelo usuário:</summary>
 <img src="https://github.com/Time-1-ADS/PROJETO-NESS/raw/codes/imagens/novas-propostas.gif">
 
-> Nesta tela podemos ver a inserção de uma nova proposta no sistema.
+> Aqui é um GIF onde podemos ver que a conexão com o banco de dados funciona perfeitamente no frontend, o usuário está informações que será salvo no banco de dados e será exibido como um lead no quadro kanban.
 </details>
 
 <details >
